@@ -10,7 +10,14 @@ export default () => {
 
     return (
         <BrowserRouter>
-            <AreaLogin>
+            <Switch>
+                <Route exact path="/register">
+                    <AreaLogin>
+                        <h1>tetete</h1>
+                    </AreaLogin>
+                </Route>
+                <Route exact path="*">
+                <AreaLogin>
                 <h1>Faça o login em sua conta</h1>
 
                 <BtnDefaultIcons>
@@ -43,8 +50,10 @@ export default () => {
                         <Link to="/register"> Registre-se</Link>
                     </div>
                 </form>
-
             </AreaLogin>
+                </Route>
+            </Switch>
+           
         </BrowserRouter>
     );
 }
