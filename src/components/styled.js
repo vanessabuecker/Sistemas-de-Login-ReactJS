@@ -25,12 +25,12 @@ transition: 0.4s;
 `;
 
 export const BtnDefault = styled(BtnDefaultIcons)`
-background-color: #7d2ae8;
+background-color: #f06292;
 color: #fff;
 display: inline;
 
 &:hover{
-    background-color: #4e129c;
+    background-color: #ff94c2;
 }
 
 `;

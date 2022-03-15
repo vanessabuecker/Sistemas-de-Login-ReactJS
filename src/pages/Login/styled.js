@@ -13,7 +13,25 @@ box-shadow: 0px 0px 10px #ccc;
 h1{
     font-size: 22px;
     font-family: sans-serif;
+    
 }
+
+.organize{
+    display: flex;
+    text-align: center;
+    
+    a{
+        color: #000;
+        margin-right: 16%;
+
+    }
+}
+
+p{
+    font-size: 12px;
+    color: #020503;
+}
+
 .form--imput{
     text-align: left;
 
@@ -46,7 +64,7 @@ h1{
        transition: 0.5s;
        margin-left: 5px;
        cursor: pointer;
-       color: blue;
+       color: #020503;
        font-weight: bold;
 
    &:hover{
